@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="assig_1_q_1_userDisplay.aspx" />
     <Content Include="assi_1_q_2_temperature.aspx" />
+    <Content Include="assi_1_q_3_arithmatic.aspx" />
     <Content Include="assi_1_q_4_AutoPostBack.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="assi_1_q_2_temperature.aspx.designer.cs">
       <DependentUpon>assi_1_q_2_temperature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assi_1_q_3_arithmatic.aspx.cs">
+      <DependentUpon>assi_1_q_3_arithmatic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assi_1_q_3_arithmatic.aspx.designer.cs">
+      <DependentUpon>assi_1_q_3_arithmatic.aspx</DependentUpon>
     </Compile>
     <Compile Include="assi_1_q_4_AutoPostBack.aspx.cs">
       <DependentUpon>assi_1_q_4_AutoPostBack.aspx</DependentUpon>
