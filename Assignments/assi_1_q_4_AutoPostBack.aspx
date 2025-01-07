@@ -13,7 +13,7 @@
         <asp:ListBox ID="ListBox1" runat="server" Height="160px" Width="171px" AutoPostBack="True" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged">
             <asp:ListItem>Morbi</asp:ListItem>
             <asp:ListItem>Rajkot</asp:ListItem>
-            <asp:ListItem>Madhvi</asp:ListItem>
+            <asp:ListItem>Om</asp:ListItem>
         </asp:ListBox>
         <br />
         <br />

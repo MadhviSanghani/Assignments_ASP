@@ -71,6 +71,8 @@
     <Content Include="assi_1_q_2_temperature.aspx" />
     <Content Include="assi_1_q_3_arithmatic.aspx" />
     <Content Include="assi_1_q_4_AutoPostBack.aspx" />
+    <Content Include="assi_2_q_1.xml" />
+    <Content Include="assi_2_q_1_Ad_Rotator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +103,13 @@
     </Compile>
     <Compile Include="assi_1_q_4_AutoPostBack.aspx.designer.cs">
       <DependentUpon>assi_1_q_4_AutoPostBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assi_2_q_1_Ad_Rotator.aspx.cs">
+      <DependentUpon>assi_2_q_1_Ad_Rotator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assi_2_q_1_Ad_Rotator.aspx.designer.cs">
+      <DependentUpon>assi_2_q_1_Ad_Rotator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
