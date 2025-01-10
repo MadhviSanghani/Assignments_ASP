@@ -73,6 +73,8 @@
     <Content Include="assi_1_q_4_AutoPostBack.aspx" />
     <Content Include="assi_2_q_1.xml" />
     <Content Include="assi_2_q_1_Ad_Rotator.aspx" />
+    <Content Include="assi_2_q_2_timeAndCal.aspx" />
+    <Content Include="assi_2_q_3_fileupload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +112,20 @@
     </Compile>
     <Compile Include="assi_2_q_1_Ad_Rotator.aspx.designer.cs">
       <DependentUpon>assi_2_q_1_Ad_Rotator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assi_2_q_2_timeAndCal.aspx.cs">
+      <DependentUpon>assi_2_q_2_timeAndCal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assi_2_q_2_timeAndCal.aspx.designer.cs">
+      <DependentUpon>assi_2_q_2_timeAndCal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assi_2_q_3_fileupload.aspx.cs">
+      <DependentUpon>assi_2_q_3_fileupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assi_2_q_3_fileupload.aspx.designer.cs">
+      <DependentUpon>assi_2_q_3_fileupload.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
